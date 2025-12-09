@@ -3,4 +3,5 @@ target/
 *.iml
 .vscode/
 *.class
-*.logsrc/log/
+*.log
+src/log/
