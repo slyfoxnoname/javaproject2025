@@ -14,7 +14,7 @@ public class Main {
             // Регистрация нашего бота
             botsApi.registerBot(new TelegramInterface());
             
-            System.out.println("Telegram бот успешно запущен!");
+            System.out.println("Telegram bot successfully started!");
         } catch (Exception e) {
             e.printStackTrace();    
         }
