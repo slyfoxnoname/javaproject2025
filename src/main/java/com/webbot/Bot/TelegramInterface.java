@@ -456,7 +456,7 @@ public class TelegramInterface extends TelegramLongPollingBot {
 
         InlineKeyboardMarkup markup = new InlineKeyboardMarkup();
         List<List<InlineKeyboardButton>> rows = new ArrayList<>();
-        rows.add(createRow(createButton("🛰 Побігли сканувати!", "btn_scan")));
+        rows.add(createRow(createButton("🛰 сканувати!", "btn_scan")));
         rows.add(createRow(createButton("🔍 Пошук у WEB (DDG)", "btn_web_search")));
         List<InlineKeyboardButton> row2 = new ArrayList<>();
         row2.add(createButton("📄 Мій звіт", "btn_report"));
